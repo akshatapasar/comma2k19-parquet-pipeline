@@ -1,0 +1,9 @@
+vehicle,route_clock_hours,segments,driving_hours
+Civic,00-06,0,0.0
+Civic,06-12,0,0.0
+Civic,12-18,0,0.0
+Civic,18-24,0,0.0
+RAV4,00-06,0,0.0
+RAV4,06-12,1,0.0167
+RAV4,12-18,0,0.0
+RAV4,18-24,0,0.0

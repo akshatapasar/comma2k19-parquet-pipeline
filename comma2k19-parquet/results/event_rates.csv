@@ -1,0 +1,13 @@
+vehicle,event_type,events,driving_hours,events_per_hour
+Civic,moderate_braking,0,0.0,
+Civic,hard_braking,0,0.0,
+Civic,steering_rate_high,0,0.0,
+Civic,close_lead_caution,0,0.0,
+Civic,close_lead_critical,0,0.0,
+Civic,car_following,0,0.0,
+RAV4,moderate_braking,1,0.0167,59.97
+RAV4,hard_braking,0,0.0167,0.0
+RAV4,steering_rate_high,0,0.0167,0.0
+RAV4,close_lead_caution,0,0.0167,0.0
+RAV4,close_lead_critical,0,0.0167,0.0
+RAV4,car_following,2,0.0167,119.94

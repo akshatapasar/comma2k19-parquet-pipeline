@@ -1,0 +1,16 @@
+brake_flag_mps2=2.0
+brake_hard_mps2=3.0
+brake_min_bins=3
+brake_tol_bins=2
+steer_rate_degps=15.0
+steer_min_bins=2
+steer_tol_bins=2
+lead_max_range_m=60.0
+lead_max_lat_m=1.8
+lead_min_speed_mps=2.0
+ttc_caution_s=4.0
+ttc_critical_s=2.0
+ttc_min_bins=2
+ttc_tol_bins=2
+follow_min_bins=30
+follow_tol_bins=3

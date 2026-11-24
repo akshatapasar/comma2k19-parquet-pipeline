@@ -1,0 +1,10 @@
+signal,segments_total,segments_with_data,pct_segments_present,rows,median_hz,max_gap_s
+can_speed,1,1,100.0,4974,82.9,0.026
+can_steering,1,1,100.0,4974,82.9,0.029
+can_wheel_speed,1,1,100.0,4974,82.9,0.026
+can_radar,1,1,100.0,10100,168.45,0.051
+imu_accel,1,1,100.0,6256,104.26,0.01
+imu_gyro,1,1,100.0,6256,104.26,0.01
+gnss_ublox,1,1,100.0,579,9.68,0.197
+gnss_qcom,1,1,100.0,30,0.5,2.029
+pose,1,1,100.0,1200,20.0,0.051

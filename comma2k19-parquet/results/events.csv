@@ -1,0 +1,4 @@
+dongle_id,route,segment,event_type,t_start_s,t_end_s,duration_s,peak_value,peak_unit
+b0c9d2329ad1606b,2018-08-02--08-34-47,40,car_following,0.0,8.1,8.1,29.3,m (min range)
+b0c9d2329ad1606b,2018-08-02--08-34-47,40,car_following,13.1,60.0,46.9,23.06,m (min range)
+b0c9d2329ad1606b,2018-08-02--08-34-47,40,moderate_braking,58.6,60.1,1.5,2.342,m/s2 (decel)

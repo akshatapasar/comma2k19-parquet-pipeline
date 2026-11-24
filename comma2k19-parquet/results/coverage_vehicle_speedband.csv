@@ -1,0 +1,11 @@
+vehicle,speed_kmh,driving_hours
+Civic,<30,0.0
+Civic,30-60,0.0
+Civic,60-90,0.0
+Civic,90-120,0.0
+Civic,>=120,0.0
+RAV4,<30,0.0001
+RAV4,30-60,0.0054
+RAV4,60-90,0.0112
+RAV4,90-120,0.0
+RAV4,>=120,0.0
