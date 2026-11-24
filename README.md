@@ -1,3 +1,4 @@
+![CI](https://github.com/akshatapasar/comma2k19-parquet-pipeline/actions/workflows/ci.yml/badge.svg)
 # comma2k19 → partitioned Parquet → SQL event tagging
 
 A small, reproducible data-platform and data-curation pipeline for the open
