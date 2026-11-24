@@ -20,7 +20,12 @@ A small, reproducible data-platform and data-curation pipeline for the open
 4. **Report coverage and gaps** by vehicle, time of day, speed band and signal availability, with empty cells shown as explicit zeros.
 
 Code, sample data and results are all in this repo and publishable under the licences below.
+## Pipeline Architecture
 
+1. **Object Storage Lakehouse (MinIO + Parquet):** Raw per-signal NumPy logs are converted into Hive-partitioned, `zstd`-compressed Parquet tables stored in S3-compatible object storage (`s3://comma2k19-lake/`).
+2. **SQL Querying & Data Quality (DuckDB + pytest):** DuckDB queries Parquet directly from object storage via `httpfs`, validated by automated data quality checks (nulls, duplicate timestamps, sampling gaps, schema drift).
+3. **Feature Extraction & Versioned Taxonomy (YAML):** Segment-level kinematic and radar features are tagged against a version-controlled YAML scenario taxonomy (`taxonomy/v1.0.0.yaml`).
+4. **Immutable Snapshots & Coverage Analysis:** Stratified sampling policies generate reproducible JSON snapshot manifests (with SHA-256 content hashes) alongside coverage and gap reports.
 ## Quickstart
 
 ```bash
