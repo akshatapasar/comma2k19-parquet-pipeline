@@ -6,7 +6,8 @@ This repository implements a reproducible data lakehouse and scenario curation p
 1. **Scenario Coverage:** Which driving regimes and kinematic events (e.g., hard braking, close lead-vehicle approaches, sharp steering, dense radar traffic, stop-and-go) are well represented across segments, and which safety-critical edge cases are rare or missing?
 2. **Dataset Representativeness:** How heavily is this comma2k19 slice skewed toward steady highway cruising versus urban/low-speed maneuvering, and how evenly are recordings distributed across vehicles (`dongle_id`) and times of day?
 3. **Curated Snapshot Effectiveness:** Does a stratified snapshot policy (retaining 100% of rare safety-critical scenarios while downsampling routine highway cruising) measurably close coverage gaps compared to the raw ingested dataset?
-4. 
+
+
 # comma2k19 → partitioned Parquet → SQL event tagging
 
 A small, reproducible data-platform and data-curation pipeline for the open
